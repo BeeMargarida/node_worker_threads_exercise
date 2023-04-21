@@ -1,0 +1,14 @@
+{
+  "name": "multithreaded_node",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc src/*.ts --outDir dist/",
+    "dev": "yarn build && node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.13",
+    "typescript": "^5.0.4"
+  }
+}
